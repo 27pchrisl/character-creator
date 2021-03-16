@@ -2,12 +2,14 @@ import React from 'react';
 
 import CharacterEditor from './components/CharacterEditor';
 import Footer from './components/Footer';
+import styles from './app.module.css';
 
 function App() {
   return (
     <>
-      <CharacterEditor />
-      <Footer />
+      <div className={styles.backgroundBlock}/>
+      <CharacterEditor/>
+      <Footer/>
     </>
   );
 }
